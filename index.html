@@ -1,52 +1,112 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Discord | Your Place to Talk and Hang Out</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!--[if lt IE 7]>
-        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-
     <header>
-
       <nav>
         <a href="https://discord.com/">
-          <img class="home-button" src="images/discord-home.PNG" alt="discord-home" style="width:124; height:34;">
+          <img
+            id="home-btn"
+            src="images/discord-home.PNG"
+            alt="discord-home"
+            style="width: 124; height: 34"
+          />
         </a>
-        <div id="navbar-links">
-          <a class="navbar-link" href="#">Download</a>
-          <a class="navbar-link" href="#">Nitro</a>
-          <a class="navbar-link" href="#">Safety</a>
-          <a class="navbar-link" href="#">Support</a>
-          <a class="navbar-link" href="#">Blog</a>
-          <a class="navbar-link" href="#">Careers</a>
-        </div>
-          <button id="navbar-button">Open Discord</button>
+        <a href="https://discord.com/download" id="navbar-download">Download</a>
+        <a href="https://discord.com/nitro" id="navbar-nitro">Nitro</a>
+        <a href="https://discord.com/safety" id="navbar-safety">Safety</a>
+        <a href="https://support.discord.com/hc/en-us" id="navbar-support"
+          >Support</a
+        >
+        <a href="https://discord.com/blog" id="navbar-blog">Blog</a>
+        <a href="https://discord.com/jobs" id="navbar-careers">Careers</a>
+        <a href="https://discord.com/login" id="navbar-login-a"
+          ><button id="navbar-login-b">Login</button></a
+        >
       </nav>
 
       <h1>IMAGINE A PLACE . . .</h1>
-
-      <p class="banner-text">
-        ...where you can belong to a school club, a gaming group, or a worldwide art community.<br>
-        Where just you and a handful of friends can spend time together. A place that makes it easy<br>
-        to talk every day and hang out more often.
+      <p>
+        ...where you can belong to a school club, a gaming group, or a worldwide
+        art community. Where just you and a handful of friends can spend time
+        together. A place that makes it easy to talk every day and hang out more
+        often.
       </p>
 
+      <div id="banner-btns">
+        <button id="download-for-windows-btn">
+          <a>Download for Windows</a>
+        </button>
+        <button id="open-discord-browser-btn">
+          Open Discord in your browser
+        </button>
+      </div>
+
+      <div id="banner-background-imgs">
+        <img src="./images/banner-clouds.svg" alt="Banner Clouds Image" />
+        <img src="./images/banner-left.svg" alt="Banner Left Image" />
+        <img src="./images/banner-right.svg" alt="Banner Right Image" />
+      </div>
+    </header>
+
+    <section id="block1">
+      <img src="./images/block1.svg" alt="Block 1 Image" />
+      <div id="block1_text">
+        <h2>Create an invite-only place where you belong</h2>
+        <p>
+          Discord servers are organized into topic based channels where you can
+          collaborate, share, and just talk about your day without clogging up a
+          group chat.
+        </p>
+      </div>
+    </section>
+
+    <section id="block2">
+      <div id="block1_text">
+        <h2>Where hanging out is easy</h2>
+        <p>
+          Grab a seat in a voice channel when you’re free. Friends in your
+          server can see you’re around and instantly pop in to talk without
+          having to call.
+        </p>
+      </div>
+      <img src="./images/block2.svg" alt="Block 2 Image" />
+    </section>
+
+    <section id="block3">
+      <img src="./images/block3.svg" alt="Block 3 Image" />
+      <div id="block1_text">
+        <h2>From few to a fandom</h2>
+        <p>
+          Get any community running with moderation tools and custom member
+          access. Give members special powers, set up private channels, and
+          more.
+        </p>
+      </div>
+    </section>
+
+    <section id="block4">
+      <h2>RELIABLE TECH FOR STAYING CLOSE</h2>
+      <p>
+        Low-latency voice and video feels like you’re in the same room. Wave
+        hello over video, watch friends stream their, or gather up and have a
+        drawing session with screen share.
+      </p>
+      <img src="./images/block4.svg" alt="BLock 4 Image" />
+      <h3>Ready to start your journey?</h3>
       <button id="download-for-windows-btn">
         <a>Download for Windows</a>
       </button>
-      <button id="open-discord-browser-btn">Open Discord in your browser</button>
-
-    </header>
+    </section>
+    <footer>
+      <h3>IMAGINE A PLACE</h3>
+    </footer>
   </body>
 </html>
